@@ -4,13 +4,15 @@ import BaseIcon from '~/components/BaseIcon'
 import Countdown from '~/components/Countdown'
 import IconLabel from '~/components/IconLabel'
 import WorkshopDetails from '~/components/WorkshopDetails'
+import NetlifyForm from '~/components/NetlifyForm'
 
 export default {
   components: {
     BaseIcon,
     Countdown,
     IconLabel,
-    WorkshopDetails
+    WorkshopDetails,
+    NetlifyForm
   },
   async asyncData({ $content }) {
     const pageContent = await $content(
